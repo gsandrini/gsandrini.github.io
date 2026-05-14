@@ -65,6 +65,20 @@ const APPS = [
     },
   },
   {
+    id: 'file-renamer',
+    name: 'File Renamer',
+    tag: 'Utility',
+    pwa: false,
+    wails: true,
+    screenshot: 'assets/screenshots/file-renamer.png',
+    demoUrl: null,
+    repoUrl: 'https://github.com/gsandrini/file-renamer',
+    desc: {
+      it: 'Applicazione desktop per rinominare file e directory.',
+      en: 'Desktop app for renaming files and directories.',
+    },
+  },
+  {
     id: 'connection-manager',
     name: 'Connection Manager',
     tag: 'Utility',
