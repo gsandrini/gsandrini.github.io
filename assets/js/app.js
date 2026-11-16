@@ -84,12 +84,12 @@ const APPS = [
     tag: 'Utility',
     pwa: false,
     wails: true,
-    screenshot: 'assets/screenshots/connection-manager.png',
+    screenshot: 'assets/screenshots/connection-manager-table.png',
     demoUrl: null,
     repoUrl: 'https://github.com/gsandrini/connection-manager',
     desc: {
-      it: 'Applicazione desktop che consente di organizzare le connessioni SSH per gruppo e ambiente, cercarle in tempo reale e aprire un terminale nativo con un solo click',
-      en: 'Desktop app that lets you organize SSH connections by group and environment, search them in real time, and open a native terminal in one click.',
+      it: 'Applicazione desktop che consente di organizzare le connessioni SSH per gruppo e ambiente, cercarle in tempo reale e aprirle in schede con terminale integrato, con password salvate in modo cifrato',
+      en: 'Desktop app that lets you organize SSH connections by group and environment, search them in real time, and open them in tabs with an embedded terminal, with passwords stored encrypted.',
     },
   },
   {
