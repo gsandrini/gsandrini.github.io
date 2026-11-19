@@ -10,13 +10,13 @@ A collection of small web and desktop applications.
 
 - [Alpine.js](https://alpinejs.dev) - Reactive UI (bundled locally)
 - [Tailwind CSS](https://tailwindcss.com) - Styling (compiled locally)
-- [JetBrains Mono](https://www.jetbrains.com/lp/mono/) - Typography
+- [Google Fonts](https://fonts.google.com) - Inter and JetBrains Mono typography (loaded from CDN)
 
 ---
 
 ## Built with
 
-This project was built with the support of [Claude](https://claude.ai) by Anthropic.
+This project was built with the support of AI.
 
 ## License
 
