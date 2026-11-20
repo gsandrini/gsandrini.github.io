@@ -65,20 +65,6 @@ const APPS = [
     },
   },
   {
-    id: 'file-renamer',
-    name: 'File Renamer',
-    tag: 'Utility',
-    pwa: false,
-    wails: true,
-    screenshot: 'assets/screenshots/file-renamer.png',
-    demoUrl: null,
-    repoUrl: 'https://github.com/gsandrini/file-renamer',
-    desc: {
-      it: 'Applicazione desktop per rinominare file e directory.',
-      en: 'Desktop app for renaming files and directories.',
-    },
-  },
-  {
     id: 'connection-manager',
     name: 'Connection Manager',
     tag: 'Utility',
@@ -90,20 +76,6 @@ const APPS = [
     desc: {
       it: 'Applicazione desktop che consente di organizzare le connessioni SSH per gruppo e ambiente, cercarle in tempo reale e aprirle in schede con terminale integrato, con password salvate in modo cifrato',
       en: 'Desktop app that lets you organize SSH connections by group and environment, search them in real time, and open them in tabs with an embedded terminal, with passwords stored encrypted.',
-    },
-  },
-  {
-    id: 'video-downloader',
-    name: 'Video Downloader',
-    tag: 'Utility',
-    pwa: false,
-    wails: true,
-    screenshot: 'assets/screenshots/video-downloader.png',
-    demoUrl: null,
-    repoUrl: 'https://github.com/gsandrini/video-downloader',
-    desc: {
-      it: 'Applicazione desktop che consente di scaricare parti di video da YouTube',
-      en: 'Desktop app that lets you download segments from YouTube videos',
     },
   },
   {
@@ -133,63 +105,7 @@ const APPS = [
       it: 'Genera testo casuale per riempire mockup e prototipi.',
       en: 'Generate random text to fill mockups and prototypes.',
     },
-  },
-  {
-    id: 'aes256-encryptor',
-    name: 'AES-256-GCM Encryptor',
-    tag: 'Security',
-    pwa: true,
-    wails: false,
-    screenshot: 'assets/screenshots/aes256-encryptor.png',
-    demoUrl: 'https://gsandrini.github.io/aes256-encryptor/',
-    repoUrl: 'https://github.com/gsandrini/aes256-encryptor',
-    desc: {
-      it: 'Cifra e decifra testo con AES-256-GCM direttamente nel browser.',
-      en: 'Encrypt and decrypt text with AES-256-GCM directly in the browser.',
-    },
-  },
-  {
-    id: 'html-utils',
-    name: 'HTML Utils',
-    tag: 'Utility',
-    pwa: true,
-    wails: false,
-    screenshot: 'assets/screenshots/html-utils.png',
-    demoUrl: 'https://gsandrini.github.io/html-utils/',
-    repoUrl: 'https://github.com/gsandrini/html-utils',
-    desc: {
-      it: 'Converte da pixel a REM e viceversa.',
-      en: 'Converts from pixels to REM and vice versa.',
-    },
-  },
-  {
-    id: 'easy-numbers',
-    name: 'Easy Numbers',
-    tag: 'Utility',
-    pwa: true,
-    wails: false,
-    screenshot: 'assets/screenshots/easy-numbers.png',
-    demoUrl: 'https://gsandrini.github.io/easy-numbers/',
-    repoUrl: 'https://github.com/gsandrini/easy-numbers',
-    desc: {
-      it: 'Un semplice generatore di numeri casuali.',
-      en: 'A simple random number generator.',
-    }
-  },
-  {
-    id: 'spinner',
-    name: 'Spinner',
-    tag: 'Game',
-    pwa: true,
-    wails: false,
-    screenshot: 'assets/screenshots/spinner.png',
-    demoUrl: 'https://gsandrini.github.io/spinner/',
-    repoUrl: 'https://github.com/gsandrini/spinner',
-    desc: {
-      it: 'Una semplice ruota della fortuna.',
-      en: 'A simple prize wheel.',
-    },
-  },
+  }
 ];
 
 function showcase() {
